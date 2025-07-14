@@ -9,3 +9,5 @@ fs.writeFile("output.txt","Writing file",(err)=>{
 });
 
 console.log("File operation completed.");
+console.log("End of first.js execution.");
+console.log("You can now check the output.txt file for the written content.");
