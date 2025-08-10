@@ -1,1 +1,1 @@
-{"name":"AL DAAZ","email":"aldazz@gmail.com","gender":"male"}
+{"name":"FARZAN ATEEQUE KHAN","email":"khanfarzan200@gmail.com","gender":"male"}

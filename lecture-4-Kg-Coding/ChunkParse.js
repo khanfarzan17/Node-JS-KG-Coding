@@ -1,8 +1,8 @@
-const http = require("http");
+
 const fs = require("fs");
 const { buffer } = require("stream/consumers");
 
-const server = http.createServer((req, res) => {
+const requestHandler=((req, res) => {
   console.log("Received a request for:", req.url);
   console.log("Request method:", req.method);
   // console.log("Request headers:", req.headers);
@@ -61,7 +61,4 @@ const server = http.createServer((req, res) => {
   }
 });
 
-const PORT = 3000;
-server.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+module.exports = requestHandler;
