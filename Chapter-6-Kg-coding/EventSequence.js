@@ -23,6 +23,8 @@ process.on('exit',()=>{
 
 console.log(" 7. end of Script execution");// Second line of output
 
+// Output will be in the order of microtasks, macrotasks, and process events//
+
 // my Output 1,7,2,3,5,4,6//
 
 // In the output 4 and 5 order may vary because of poll phase//
