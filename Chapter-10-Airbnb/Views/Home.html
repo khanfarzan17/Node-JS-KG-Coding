@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+      }
+
+      header {
+        background: linear-gradient(to right, #ff5a5f, #ff7e7e);
+        color: white;
+        text-align: center;
+        padding: 3rem 1rem;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin: 0;
+      }
+
+      nav {
+        background-color: white;
+        padding: 1rem 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #ff5a5f;
+        padding: 0.5rem 1rem;
+        transition: all 0.3s ease;
+      }
+
+      nav a:hover {
+        background-color: #ff5a5f;
+        color: white;
+        border-radius: 5px;
+      }
+
+      .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 1rem;
+        min-height: 60vh; /* Add minimum height */
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        position: relative; /* Add position relative */
+      }
+
+      .hero h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .hero p {
+        font-size: 1.1rem;
+        max-width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Airbnb</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/Add-Property">Add Property</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h2>Find your perfect stay</h2>
+      <p>
+        Discover amazing places to stay, from cozy cabins to luxurious villas,
+        all around the world.
+      </p>
+    </section>
+  </body>
+</html>
